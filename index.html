@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/sass/style.sass">
   <link rel="stylesheet" href="/css/style.css">
   <title>MySite</title>
 </head>
   <body>
-
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-info">
+          <div class="navbar-info__logo">
+            <img src="/img/icon/image.svg" alt="icon: logo">
+            <span class="navbar-info__logo__name">GLO ACADEMY</span>
+          </div>
+            <div class="navbar-info__icon">
+            <img src="/img/icon/github.svg" alt="icon: github">
+            <img src="/img/icon/twitter.svg" alt="icon: twitter">
+            <img src="/img/icon/instagram.svg" alt="icon: instagram">
+            <img src="/img/icon/facebook.svg" alt="icon: facebook">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+        <div class="hero-info">
+          <h3 class="hero-info__title">Фрилансер</h3>
+          <h1 class="hero-info__name">Дмитрий Ворогушин</h1>
+          <p class="hero-info__text">
+          Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или
+          интернет-магазина
+          </p>
+          <button class="hero-info__button">Бесплатная консультация</button>
+        </div>
+        <div class="hero-avatar">
+          <img class="hero-avatar__img" src="/img/imgmy.jpg" alt="image: avatar">
+        </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

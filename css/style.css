@@ -8,7 +8,9 @@ h1, h2, h3 {
 }
 
 body {
-  background: #E5E5E5;
+  color: #fff;
+  background-color: #07070a;
+  font-family: 'Roboto';
 }
 
 img {
@@ -16,7 +18,97 @@ img {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 950px;
   margin: auto;
+}
+
+.navbar-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-info__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-info__logo__name {
+  padding-left: 5px;
+}
+
+.hero-wrapper {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-info {
+  width: 500px;
+}
+
+.hero-info__title {
+  color: #FFBB01;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 30px;
+}
+
+.hero-info__name {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  padding-top: 14px;
+}
+
+.hero-info__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 30px 0;
+  margin: 0;
+}
+
+.hero-info__button {
+  padding: 24px 41px;
+  -webkit-box-shadow: 0px 4px 0px #B68500;
+          box-shadow: 0px 4px 0px #B68500;
+  border-radius: 5px 5px 10px 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDDE76), to(#FFBB01));
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero-avatar {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.hero-avatar__img {
+  width: 367px;
+  height: 367px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
