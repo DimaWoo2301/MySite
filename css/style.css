@@ -22,6 +22,10 @@ img {
   margin: auto;
 }
 
+button, a {
+  cursor: pointer;
+}
+
 .header {
   padding-top: 50px;
 }
@@ -81,6 +85,15 @@ img {
   font-weight: bold;
   font-size: 12px;
   line-height: 28px;
+}
+
+.hero-info__button:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #07070a;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .hero-info__title {
@@ -308,6 +321,16 @@ img {
   font-weight: bold;
   font-size: 12px;
   line-height: 28px;
+  cursor: pointer;
+}
+
+.footer-card-button:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #07070a;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .footer-card__title {
