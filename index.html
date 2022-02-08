@@ -13,18 +13,18 @@
   <title>MySite</title>
 </head>
   <body>
-    <header class="navbar">
+    <header class="header">
       <div class="container">
-        <div class="navbar-info">
-          <div class="navbar-info__logo">
+        <div class="header-info">
+          <div class="header-info__logo">
             <img src="/img/icon/image.svg" alt="icon: logo">
-            <span class="navbar-info__logo__name">GLO ACADEMY</span>
+            <span class="header-info__logo__name">GLO ACADEMY</span>
           </div>
-            <div class="navbar-info__icon">
-            <img src="/img/icon/github.svg" alt="icon: github">
-            <img src="/img/icon/twitter.svg" alt="icon: twitter">
-            <img src="/img/icon/instagram.svg" alt="icon: instagram">
-            <img src="/img/icon/facebook.svg" alt="icon: facebook">
+            <div>
+            <img class="header-info__icon" src="/img/icon/github.svg" alt="icon: github">
+            <img class="header-info__icon" src="/img/icon/twitter.svg" alt="icon: twitter">
+            <img class="header-info__icon" src="/img/icon/instagram.svg" alt="icon: instagram">
+            <img class="header-info__icon" src="/img/icon/facebook.svg" alt="icon: facebook">
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
           Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или
           интернет-магазина
           </p>
-          <button class="hero-info__button">Бесплатная консультация</button>
+          <button class="button">Бесплатная консультация</button>
         </div>
         <div class="hero-avatar">
           <img class="hero-avatar__img" src="/img/imgmy.jpg" alt="image: avatar">
@@ -93,14 +93,14 @@
             <h4 class="project-wrapper__title">Сайт строительной фирмы “Велстрой”</h4>
             <div class="project-wrapper-card__info">
               <div class="project-wrapper-card__info__case">
-                <img class="project-wrapper-card__img" src="/img/icon/time-icon.svg" alt="">
+                <img class="project-wrapper-card__img" src="/img/icon/time-icon.svg" alt="icon: Clock">
                 <div class="project-wrapper-card__info-wripper">
                   <span class="project-wrapper-card__title">Сроки</span>
                   <span class="project-wrapper-card__text">4 рабочих дня</span>
                 </div>
               </div>
               <div class="project-wrapper-card__info__case">
-                <img class="project-wrapper-card__img" src="/img/icon/cost-icon.svg" alt="">
+                <img class="project-wrapper-card__img" src="/img/icon/cost-icon.svg" alt="icon: money">
                 <div class="project-wrapper-card__info-wripper">
                   <span class="project-wrapper-card__title">Стоимость</span>
                   <span class="project-wrapper-card__text">14 000 рублей</span>
@@ -108,7 +108,7 @@
               </div>
             </div>
             <div class="project-wrapper-card__info__case">
-              <img class="project-wrapper-card__img" src="/img/icon/feedback-icon.svg" alt="">
+              <img class="project-wrapper-card__img" src="/img/icon/feedback-icon.svg" alt="icon: chat">
               <div class="project-wrapper-card__info-wripper">
                 <span class="project-wrapper-card__title">Отзыв клиента</span>
                 <p class="project-wrapper-card__text">
@@ -130,5 +130,49 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <span class="footer-title">Свяжитесь со мной</span>
+        <div class="footer-wrapper">
+          <div class="footer-card">
+            <h4 class="footer-card__title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+            <div class="footer-card-input">
+              <img class="footer-card-input__person" src="/img/icon/user-icon.svg" alt="">
+              <input class="footer-card-input__item" value="Ваше имя">
+              <img class="footer-card-input__phone" src="/img/icon/phone-icon.svg" alt="">
+              <input class="footer-card-input__item" value="Ваш телефон">
+            </div>
+            <button class="button">Бесплатная консультация</button>
+          </div>
+          <div class="footer-connection">
+            <div class="footer-connection-report">
+              <div class="footer-connection-report__item">
+                <span class="footer-connection__title">Телефон</span>
+                <span class="footer-connection__text">+7 999 123 45 67</span>
+              </div>
+              <div class="footer-connection-report__item">
+                <span class="footer-connection__title">Почта</span>
+                <span class="footer-connection__text">ivanov@mail.ru</span>
+              </div>
+            </div>
+            <div class="footer-connection__social">
+              <span class="footer-connection__title">Соцсети</span>
+              <div class="footer-connection__social__networks">
+                <span class="footer-connection__social__networks__text">t.me/ivanov</span>
+                <span class="footer-connection__social__networks__text">vk.me/ivanov</span>
+                <span class="footer-connection__social__networks__text">fb.me/ivanov</span>
+              </div>
+            </div>
+            <div class="footer-connection__icon">
+              <img class="footer-connection__icon__item" src="/img/icon/github.svg" alt="icon: github">
+              <img class="footer-connection__icon__item" src="/img/icon/twitter.svg" alt="icon: twitter">
+              <img class="footer-connection__icon__item" src="/img/icon/instagram.svg" alt="icon: instagram">
+              <img class="footer-connection__icon__item" src="/img/icon/facebook.svg" alt="icon: facebook">
+            </div>
+            <a class="footer-connection__link" href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
