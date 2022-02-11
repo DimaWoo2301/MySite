@@ -1,10 +1,11 @@
 .project
+  margin-bottom: 100px
   &-title
     font-weight: bold
     font-size: 36px
     line-height: 42px
     padding-bottom: 85px
-  &-wrapper
+  &-slider
     display: flex
     &__title
       font-weight: bold
@@ -49,3 +50,17 @@
     padding-bottom: 160px
     &__img
       padding-right: 10px
+  &-pagination
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 44px
+  &-bullet
+    width: 10px
+    height: 10px
+    border: 2px solid #FFB301
+    border-radius: 50%
+    display: inline-block
+    margin: 0 5px
+    &-active
+      background-color: #fff

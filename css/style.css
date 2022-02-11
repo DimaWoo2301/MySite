@@ -186,6 +186,10 @@ button, a {
   margin: 0;
 }
 
+.project {
+  margin-bottom: 100px;
+}
+
 .project-title {
   font-weight: bold;
   font-size: 36px;
@@ -193,54 +197,54 @@ button, a {
   padding-bottom: 85px;
 }
 
-.project-wrapper {
+.project-slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.project-wrapper__title {
+.project-slider__title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   padding-bottom: 40px;
 }
 
-.project-wrapper__img {
+.project-slider__img {
   width: 338px;
   height: 268px;
   border-radius: 6px;
   margin-right: 60px;
 }
 
-.project-wrapper-card__img {
+.project-slider-card__img {
   width: 30px;
   height: 30px;
   margin-right: 16px;
 }
 
-.project-wrapper-card__title {
+.project-slider-card__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   padding-bottom: 7px;
 }
 
-.project-wrapper-card__text {
+.project-slider-card__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   margin: 0;
 }
 
-.project-wrapper-card__info {
+.project-slider-card__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 44px;
 }
 
-.project-wrapper-card__info__case {
+.project-slider-card__info__case {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,7 +254,7 @@ button, a {
   padding-right: 60px;
 }
 
-.project-wrapper-card__info-wripper {
+.project-slider-card__info-wripper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,6 +278,32 @@ button, a {
 
 .project-swapper__img {
   padding-right: 10px;
+}
+
+.project-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 44px;
+}
+
+.project-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFB301;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.project-bullet-active {
+  background-color: #fff;
 }
 
 .footer-title {
